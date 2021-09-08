@@ -3,3 +3,7 @@ export const randomInteger = function (min, max) {
 	return Math.round(rand);
 
 }
+
+export  function getNodeValue(selector, key = "value") {
+	return document.querySelector(selector)[key]
+}
